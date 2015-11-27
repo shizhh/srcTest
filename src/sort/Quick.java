@@ -94,6 +94,25 @@ public class Quick {
         // now, a[lo .. j-1] <= a[j] <= a[j+1 .. hi]
         return j;
     }
+    
+    private static int partition2(Comparable[] a, int lo, int hi) {
+        int i = lo;
+        int j = hi+1;
+        Comparable v = a[lo];
+        while (i < j) {
+            while (less(a[++i], v)) {
+                if (i >= j)
+                    break;
+            }
+            while (less(v, a[--j])) {
+                if (j <= i)
+                    break;
+            }
+            exch(a, i, j);
+        }
+        exch(a, lo, j - 1);
+        return j - 1;
+    }
 
     /**
      * Rearranges the array so that a[k] contains the kth smallest key;
@@ -164,19 +183,10 @@ public class Quick {
      * standard output, but this time, using the select method.
      */
     public static void main(String[] args) {
-        String[] a = StdIn.readAllStrings();
-        Quick.sort(a);
+        Comparable[] a = {2,0,5,4,1,9,8,3,6,7};
+        int p = partition2(a, 0, a.length -  1);
+        StdOut.println(p);
         show(a);
-
-        // shuffle
-        StdRandom.shuffle(a);
-
-        // display results again using select
-        StdOut.println();
-        for (int i = 0; i < a.length; i++) {
-            String ith = (String) Quick.select(a, i);
-            StdOut.println(ith);
-        }
     }
 
 }
