@@ -44,4 +44,96 @@ BM算法
 6、查找算法
 顺序表查找：顺序查找
 有序表查找：二分查找
-分块查找：块内无序，块间有序：
+分块查找：块内无序，块间有序：可以先二分查找定位到块，然后再到块中使用顺序查找（这里之
+所以叫动态查找表，是因为表结构是查找的过程中动态生成的）
+动态查找：二叉排序树，AVL树，B-，B+
+哈希表：O（1）
+
+7、15个经典基础算法
+A*寻路算法：求解最短路径Dijkstra：最短路径算法
+DP（动态规划）
+BFS/DFS（广度/深度优先遍历）
+红黑树（一种自平衡的二叉查找树）
+KMP字符串匹配算法
+遗传算法
+启发式搜索
+图像特征提取之SIFT算法
+傅里叶变换
+Hash
+快速排序
+SPFA（shortest path faster algorithm）单元最短路径算法
+快递选择select
+
+8、算法设计思想
+迭代法
+穷举搜索法
+递推法
+动态规划
+贪心算法
+回溯
+分治算法
+
+9、刷题必备
+《剑指offer》
+《编程之美》
+《编程珠玑》偏理论
+《编程珠玑（续）》
+《More Programming Peals》偏轶事
+
+《数据结构与算法分析》
+《算法设计与分析基础》
+《算法导论》
+《算法引论》
+
+侧重经典算法的实现
+《Elements of Programming》STL代码快准狠
+《C interfaces and Implementation》
+《The practice of programming》
+
+《微软的梦工厂》
+《Language Implementation patterns》
+《Algorithms on Strings, Trees and Sequences》
+
+《writing efficient programs》优化
+
+《Algorithm Design Manual》红皮书
+
+《The Science of programming》证明代码段的正确性
+
+高级数据结构（如元胞自动机、斐波那契堆、线段树）
+
+《Algorithms》4版
+《Advanced Data Structures》各种诡异的数据结构和算法
+
+《深入理解计算机系统》
+《TCP/IP详解三卷》
+《UNIX网络编程三卷》
+《UNIX环境高级编程：第2版》
+
+10、参考链接和学习网站
+** @July博客《二之再续、Dijkstra算法+fibonacci堆的逐步c实现》**
+《数学建模十大经典算法》
+《数据挖掘领域十大经典算法》
+《十道海量数据处理面试题》
+《数字图像处理领域的二十四个经典算法》
+《精选微软等公司经典的算法面试100题》
+
+微软面试100题
+http://blog.csdn.net/column/details/ms100.html
+程序员编程艺术
+http://blog.csdn.net/v_JULY_v/article/details/646049
+
+http://github.com/julycoding/The-Art-Of-Programming-By-July算法题集合
+
+https://github.com/activesys/libcstl通用数据结构和算法库
+https://github.com/nonstriater/Learn-Algorithm算法小组
+
+基本算法演示
+http://sjjg.js.zwu.edu.cn/SFXX/sf1/sfys.html
+http://www.cs.usfca.edu/~galles/visualization/Algorithm
+
+编程网站
+http://oj.leetcode.com/
+http://openjudge.cn/POJ
+http://www.java3z.com/cwbwebhome/article/article|
+http://ac.jobdu.com/index/php 九度OJ
