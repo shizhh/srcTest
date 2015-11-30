@@ -11,15 +11,15 @@ package sort;
  */
 public class CountSort {
     
-    public static void main(String[] args) {
-        int[] nums = {2, 3, 3, 4, 1,3,4,3,1,2,2,1,2,4,3,4,4,2,3,4};
-        sort(nums, 4);
-        // 打印
-        System.out.println(nums.length);
-        for (int i : nums) {
-            System.out.print(i + " ");
-        }
-    }
+//    public static void main(String[] args) {
+//        int[] nums = {2, 3, 3, 4, 1,3,4,3,1,2,2,1,2,4,3,4,4,2,3,4};
+//        sort(nums, 4);
+//        // 打印
+//        System.out.println(nums.length);
+//        for (int i : nums) {
+//            System.out.print(i + " ");
+//        }
+//    }
     
     /**
      * 计数排序

@@ -133,12 +133,12 @@ public class Quick3string {
      * 3-way radix quicksorts them;
      * and prints them to standard output in ascending order.
      */
-    public static void main(String[] args) {
-
-        String[] s = {"she","sells","seashells","by","the","sea","shore","the","shells","she","sells","are","surely","seashells"};
-        sort(s);
-        for (String i : s) {
-            System.out.println(i);
-        }
-    }
+//    public static void main(String[] args) {
+//
+//        String[] s = {"she","sells","seashells","by","the","sea","shore","the","shells","she","sells","are","surely","seashells"};
+//        sort(s);
+//        for (String i : s) {
+//            System.out.println(i);
+//        }
+//    }
 }

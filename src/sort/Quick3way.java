@@ -50,9 +50,9 @@ public class Quick3way {
         }
     }
     
-    public static void main(String[] args) {
-        Comparable[] a = {2,0,5,4,1,9,8,3,6,7};
-        sort(a);
-        print(a);
-    }
+//    public static void main(String[] args) {
+//        Comparable[] a = {2,0,5,4,1,9,8,3,6,7};
+//        sort(a);
+//        print(a);
+//    }
 }

@@ -33,7 +33,7 @@ import std.StdRandom;
 import std.StdOut;
 
 /**
- *  The <tt>Quick</tt> class provides static methods for sorting an
+ *  The <tt>Quicksort</tt> class provides static methods for sorting an
  *  array and selecting the ith smallest element in an array using quicksort.
  *  <p>
  *  For additional documentation, see <a href="http://algs4.cs.princeton.edu/21elementary">Section 2.1</a> of
@@ -42,10 +42,10 @@ import std.StdOut;
  *  @author Robert Sedgewick
  *  @author Kevin Wayne
  */
-public class Quick {
+public class Quicksort {
 
     // This class should not be instantiated.
-    private Quick() { }
+    private Quicksort() { }
 
     /**
      * Rearranges the array in ascending order, using the natural order.
@@ -182,12 +182,12 @@ public class Quick {
      * Shuffles the array and then prints the strings again to
      * standard output, but this time, using the select method.
      */
-    public static void main(String[] args) {
-        Comparable[] a = {2,0,5,4,1,9,8,3,6,7};
-        int p = partition2(a, 0, a.length -  1);
-        StdOut.println(p);
-        show(a);
-    }
+//    public static void main(String[] args) {
+//        Comparable[] a = {2,0,5,4,1,9,8,3,6,7};
+//        int p = partition2(a, 0, a.length -  1);
+//        StdOut.println(p);
+//        show(a);
+//    }
 
 }
 

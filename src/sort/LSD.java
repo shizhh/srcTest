@@ -97,14 +97,14 @@ public class LSD {
         }
     }
 
-    public static void main(String[] args) {
-//        String[] a = {"abcd","bcad","accc","aaaa","hhhh","bcad","caca"};
-        int[] a = {256, 311, 33333, 1111114, 1,3,4,3,1,2,2,1,2,4,3,4,4,2,3,4};
-        sort(a);
-        // 打印
-        System.out.println(a.length);
-        for (int i : a) {
-            System.out.print(i + " ");
-        }
-    }
+//    public static void main(String[] args) {
+////        String[] a = {"abcd","bcad","accc","aaaa","hhhh","bcad","caca"};
+//        int[] a = {256, 311, 33333, 1111114, 1,3,4,3,1,2,2,1,2,4,3,4,4,2,3,4};
+//        sort(a);
+//        // 打印
+//        System.out.println(a.length);
+//        for (int i : a) {
+//            System.out.print(i + " ");
+//        }
+//    }
 }
