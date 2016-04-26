@@ -95,6 +95,7 @@ public class Quicksort {
         return j;
     }
     
+    /*
     private static int partition2(Comparable[] a, int lo, int hi) {
         int i = lo;
         int j = hi+1;
@@ -112,7 +113,7 @@ public class Quicksort {
         }
         exch(a, lo, j - 1);
         return j - 1;
-    }
+    }*/
 
     /**
      * Rearranges the array so that a[k] contains the kth smallest key;
